@@ -1,0 +1,11 @@
+permalink: /:categories/:title/
+url: "http://football.pranavmital.com"
+full_name: "Pranav Mital"
+first_name: "Pranav"
+last_name: "Mital"
+blog_title: Pranav Mital | Football
+author_img_name_path: "/images/users/user.jpg"
+disqus_shortname: "example"
+copyright_year: "2016"
+google_analytics_code: ""
+aboutme: "I like to make people smile."
