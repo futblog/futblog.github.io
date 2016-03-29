@@ -2,7 +2,6 @@
 <!-- Share Buttons Start -->
 <div>
   <ul class="rrssb-buttons clearfix">
-    {% if site.email-share %}
       <li class="rrssb-email">
         <a href="mailto:?subject={{page.title}}&body={{site.url}}{{site.baseurl}}{{page.url}}" data-proofer-ignore>
           <span class="rrssb-icon">
@@ -14,8 +13,7 @@
           <span class="rrssb-text">email</span>
         </a>
       </li>
-    {% endif %}
-    {% if site.fb-share %}
+      
       <li class="rrssb-facebook">
         <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{site.baseurl}}{{page.url}}&title={{page.title}}" class="popup">
           <span class="rrssb-icon">
@@ -25,8 +23,6 @@
           <span class="rrssb-text">facebook</span>
         </a>
       </li>
-    {% endif %}
-    {% if site.twitter-share %}
       <li class="rrssb-twitter">
         <a href="https://twitter.com/share?url={{site.url}}{{site.baseurl}}{{page.url}}&text={{page.title}}"
         class="popup">
@@ -34,8 +30,6 @@
           <span class="rrssb-text">twitter</span>
         </a>
       </li>
-    {% endif %}
-        {% if site.google-plus-share %}
       <li class="rrssb-googleplus">
         <a href="https://plus.google.com/share?url={{site.url}}{{site.baseurl}}{{page.url}}" class="popup">
           <span class="rrssb-icon">
@@ -44,7 +38,6 @@
           <span class="rrssb-text">google+</span>
         </a>
       </li>
-    {% endif %}
       </ul>
 </div>
 
