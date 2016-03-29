@@ -28,9 +28,9 @@ background-repeat: repeat;*/
 }
 
 body, div, a, input, select, button, textarea {
-    line-height: 2.5rem;
-    font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-    font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
