@@ -157,6 +157,12 @@ h1 {
 	//width: 95%;
 }
 
+#post section {
+    overflow: hidden;
+    position: relative;
+    height: 1000px;
+}
+
 .post-title {
 	margin: 0px 0px 8px 0px;
 	line-height: 20px;
