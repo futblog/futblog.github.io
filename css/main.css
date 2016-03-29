@@ -28,9 +28,9 @@ background-repeat: repeat;*/
 }
 
 body, div, a, input, select, button, textarea {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #fff;
+    line-height: 2.5rem;
+    font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-size: 24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -216,21 +216,24 @@ margin: 20px 5px 0px 0px;
 }
 
 #page-title {
-	margin-top: 0px;
-	padding-top: 0px;
-	font-size: 20px;
-	color:#222;
-	font-weight: 800;
+    line-height: 3.5rem;
+    text-align: center;
+    margin-top: -1px;
+    padding-top: 0px;
+    font-size: 55px;
+    color: #222;
+    font-weight: 800;
+    font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
 }
 
 #page {
 	margin-top: 20px;
 	width: 80%;
-	color: #111;
+	color: rgba(56, 56, 56, 0.95);
 	margin-left: 10%;
 	text-align: left;
 	padding-left: 3%;
-font-size: 1em;
+font-size: 1.3em;
 overflow: hidden;
 /*background: none repeat scroll 0% 0% #FFF;
 box-shadow: 5px 8px 7px rgba(99, 60, 60, 0.15);*/
