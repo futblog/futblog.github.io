@@ -359,7 +359,7 @@ background-position: center;
 	width:100%;
 	margin-bottom: 40px;
     overflow: hidden;
-    position: relative;
+    position: fixed;
     height: 1000px;
 }
 
