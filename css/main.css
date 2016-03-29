@@ -408,7 +408,9 @@ section#home-hero{
 
 @media (max-width:770px) {
 	#content {
-		background: #f4f4f4;
+        margin-left: -11px;
+        width: 115%
+        ;		background: #f4f4f4;
 		padding: 20px;
 		margin-top: 40px;
 		color: #555!important;
